@@ -1,10 +1,12 @@
 import { Card } from "@/components/ui/card";
 
 interface PortfolioItemProps {
-  image: string;
-  title: string;
-  category: string;
-  link: string;
+  image="site-exemplo-1"
+  title="Site Exemplo"
+  category="Institucional"
+  link="https://sitepro4.vercel.app/"
+/>
+
 }
 
 const PortfolioItem = ({ image, title, category, link }: PortfolioItemProps) => {
@@ -29,15 +31,3 @@ const PortfolioItem = ({ image, title, category, link }: PortfolioItemProps) => 
   );
 };
 
-export default function PortfolioPage() {
-  return (
-    <div className="p-8 max-w-5xl mx-auto">
-      <PortfolioItem
-        image="/assets/site-exemplo-1.png"
-        title="Site Exemplo"
-        category="Institucional"
-        link="https://sitepro4.vercel.app/"
-      />
-    </div>
-  );
-}
