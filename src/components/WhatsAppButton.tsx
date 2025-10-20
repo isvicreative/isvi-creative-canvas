@@ -2,7 +2,7 @@ import { MessageCircle } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const WhatsAppButton = () => {
-  const whatsappUrl = "https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre os planos da IsviCreative.";
+  const whatsappUrl = "https://wa.me/5551997652633?text=Olá! Gostaria de mais informações sobre os planos da IsviCreative.";
 
   return (
     <a
