@@ -3,7 +3,7 @@ import { Card } from "@/components/ui/card";
 
 }
 <PortfolioItem
-  image= "/assets/site-exemplo-1.png"
+  image= "src/assets/site-exemplo-1.png"
   title="Site Exemplo"
   category="Institucional"
   link="https://sitepro4.vercel.app/"
