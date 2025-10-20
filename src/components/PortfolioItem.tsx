@@ -1,11 +1,14 @@
 import { Card } from "@/components/ui/card";
 
-interface PortfolioItemProps {
-  image: string;
-  title: string;
-  category: string;
-  link?: string;
+
 }
+<PortfolioItem
+  image= 
+  title="Site Exemplo"
+  category="Institucional"
+  link="https://sitepro4.vercel.app/"
+/>
+
 
 const PortfolioItem = ({ image, title, category, link }: PortfolioItemProps) => {
   const content = (
