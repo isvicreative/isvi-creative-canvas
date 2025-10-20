@@ -13,7 +13,7 @@ import cardapio1 from "@/assets/cardapio-1.png";
 import cardapio2 from "@/assets/cardapio-2.png";
 
 const Index = () => {
-  const whatsappUrl = "https://wa.me/5511999999999?text=Olá! Gostaria de mais informações sobre os planos da IsviCreative.";
+  const whatsappUrl = "https://wa.me/5551997652633?text=Olá! Gostaria de mais informações sobre os planos da IsviCreative.";
 
   return (
     <div className="min-h-screen">
