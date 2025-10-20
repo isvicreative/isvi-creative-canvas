@@ -236,16 +236,19 @@ const Index = () => {
                   image={siteExemplo1}
                   title="Site Corporativo Profissional"
                   category="Institucional"
+                  link="https://exemplo1.com"
                 />
                 <PortfolioItem
                   image={siteExemplo2}
                   title="E-commerce Moderno"
                   category="Institucional"
+                  link="https://exemplo2.com"
                 />
                 <PortfolioItem
                   image={siteExemplo3}
                   title="Portfólio Criativo"
                   category="Institucional"
+                  link="https://exemplo3.com"
                 />
               </div>
             </div>
@@ -257,11 +260,13 @@ const Index = () => {
                   image={cardapio1}
                   title="Cardápio Digital Premium"
                   category="Restaurante"
+                  link="https://cardapio1.com"
                 />
                 <PortfolioItem
                   image={cardapio2}
                   title="Menu Online Interativo"
                   category="Restaurante"
+                  link="https://cardapio2.com"
                 />
               </div>
             </div>

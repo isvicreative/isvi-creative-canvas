@@ -4,11 +4,12 @@ interface PortfolioItemProps {
   image: string;
   title: string;
   category: string;
+  link?: string;
 }
 
-const PortfolioItem = ({ image, title, category }: PortfolioItemProps) => {
-  return (
-    <Card className="overflow-hidden group hover-lift shadow-card">
+const PortfolioItem = ({ image, title, category, link }: PortfolioItemProps) => {
+  const content = (
+    <Card className="overflow-hidden group hover-lift shadow-card cursor-pointer">
       <div className="aspect-video overflow-hidden">
         <img
           src={image}
@@ -24,6 +25,16 @@ const PortfolioItem = ({ image, title, category }: PortfolioItemProps) => {
       </div>
     </Card>
   );
+
+  if (link) {
+    return (
+      <a href={link} target="_blank" rel="noopener noreferrer" className="block">
+        {content}
+      </a>
+    );
+  }
+
+  return content;
 };
 
 export default PortfolioItem;
