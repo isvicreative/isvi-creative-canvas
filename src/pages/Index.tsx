@@ -108,15 +108,15 @@ const Index = () => {
         </div>
       </section>
 
-      {/* Planos Section */}
+      {/* Planos Sites Institucionais Section */}
       <section id="planos" className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
-              Nossos <span className="gradient-text">Planos</span>
+              Sites <span className="gradient-text">Institucionais</span>
             </h2>
             <p className="text-lg text-muted-foreground">
-              Escolha o plano ideal para seu negócio
+              Escolha o plano ideal para seu site corporativo
             </p>
           </div>
 
@@ -129,8 +129,7 @@ const Index = () => {
                 "1 alteração por mês",
                 "Domínio não incluso",
                 "Site padrão personalizado",
-                "Textos e contatos customizados",
-                "Suporte básico por e-mail"
+                "Textos e contatos customizados"
               ]}
             />
 
@@ -142,8 +141,7 @@ const Index = () => {
                 "Até 3 alterações por mês",
                 "Domínio .com.br incluso",
                 "Certificado SSL grátis",
-                "Design responsivo completo",
-                "Suporte prioritário"
+                "Suporte e adaptações básicas"
               ]}
               recommended
             />
@@ -155,9 +153,63 @@ const Index = () => {
               features={[
                 "Alterações ilimitadas",
                 "Domínio .com.br incluso",
-                "Visual extra personalizado",
-                "Otimização SEO avançada",
-                "Suporte prioritário 24/7"
+                "Prioridade no suporte",
+                "Layout padrão profissional"
+              ]}
+            />
+          </div>
+        </div>
+      </section>
+
+      {/* Cardápios Online Section */}
+      <section className="py-20 bg-muted/30">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">
+              Cardápios <span className="gradient-text">Online</span>
+            </h2>
+            <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+              Planos especializados para restaurantes e estabelecimentos que precisam atualizar 
+              cardápios com frequência e facilitar o contato via WhatsApp
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <PricingCard
+              name="Básico"
+              setupPrice="R$ 120"
+              monthlyPrice="R$ 49,90"
+              features={[
+                "Até 3 alterações por mês",
+                "Página estática com fotos",
+                "Categorias organizadas",
+                "Botão WhatsApp integrado"
+              ]}
+            />
+
+            <PricingCard
+              name="Avançado"
+              setupPrice="R$ 180"
+              monthlyPrice="R$ 59,90"
+              features={[
+                "Até 5 alterações por mês",
+                "Design personalizado",
+                "Categorias e fotos",
+                "Integração com redes sociais"
+              ]}
+              recommended
+            />
+
+            <PricingCard
+              name="Premium"
+              setupPrice="R$ 220"
+              monthlyPrice="R$ 69,90"
+              features={[
+                "Alterações ilimitadas",
+                "Atualizações ilimitadas",
+                "Integração com redes sociais",
+                "Suporte prioritário",
+                "Layout padrão profissional"
               ]}
             />
           </div>
@@ -165,7 +217,7 @@ const Index = () => {
       </section>
 
       {/* Portfolio Section */}
-      <section id="portfolio" className="py-20 bg-muted/30">
+      <section id="portfolio" className="py-20">
         <div className="container mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-5xl font-bold mb-4">
