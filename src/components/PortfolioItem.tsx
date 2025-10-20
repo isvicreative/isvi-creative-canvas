@@ -3,11 +3,12 @@ import { Card } from "@/components/ui/card";
 
 }
 <PortfolioItem
-  image= "src/assets/site-exemplo-1.png"
+  image="/assets/site-exemplo-1.png"
   title="Site Exemplo"
   category="Institucional"
-  link="https://sitepro4.vercel.app/"
+  link="https://sitepro4.vercel.app/"  // ← Aqui é o link que vai abrir ao clicar
 />
+
 
 
 const PortfolioItem = ({ image, title, category, link }: PortfolioItemProps) => {
