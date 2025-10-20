@@ -13,7 +13,7 @@ interface PricingCardProps {
 
 const PricingCard = ({ name, setupPrice, monthlyPrice, features, recommended }: PricingCardProps) => {
   const whatsappMessage = `Olá! Tenho interesse no plano ${name} da IsviCreative.`;
-  const whatsappUrl = `https://wa.me/5511999999999?text=${encodeURIComponent(whatsappMessage)}`;
+  const whatsappUrl = `https://wa.me/5551997652633?text=${encodeURIComponent(whatsappMessage)}`;
 
   return (
     <Card 
